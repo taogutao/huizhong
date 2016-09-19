@@ -1,0 +1,75 @@
+.neiye_main{ width:100%; height:630px;}
+.neiye_main_top{ height:65px; width:100%; background:#eaeaea; border-top:#46bfd4 3px solid; border-bottom:#ebebeb 2px solid; position:relative;}
+.neiye_main_top ul{ width:1000px; margin:15px auto; height:65px;  }
+.neiye_main_top ul li{ color:#222222; float:left; width:84px; line-height:36px;font-size:14px; padding-left:24px;}
+.neiye_main_top ul li:hover{background:#FFF; border: 1px solid #d6d6d6; border-radius:5px; color:#0771ba; cursor:pointer; background:url(../images/neiye_ul.png) no-repeat;}
+.neiye_main_top ul li.current{background:#FFF; border: 1px solid #d6d6d6; border-radius:5px; color:#0771ba; cursor:pointer; background:url(../images/neiye_ul.png) no-repeat;}
+
+.neiye_main_ma{ width:1000px; overflow:hidden;  height:auto; margin:0 auto; padding-top:63px; box-sizing:border-box;}
+.neiye_main_ma ul{width:1080px; }
+.neiye_main_ma ul li{ float:left; width:228px; height:180px; margin-right:28px; margin-bottom:38px;}
+.neiye_main_ma ul li .img{height:131px; border:1px #c5c5c5 solid; padding:6px; margin-bottom:11px;}
+.neiye_main_ma ul li span{ font-size:14px; color:#222222; margin-left:6px; }
+.neiye_main_ma ul li span i{ display:inline-block;background:url(../images/mid_main.png); width:6px; height:6px; background-position:-206px -135px; margin-right:5px;}
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
+}

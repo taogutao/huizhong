@@ -1,0 +1,19 @@
+.zhongye_main{ width:100%; height:630px;}
+.zhongye_main_top{height:30px; width:100%; background:#eaeaea; border-top:#46bfd4 3px solid; border-bottom:#ebebeb 2px solid; position:relative;}
+.zhongye_main_top ul{ width:1000px; margin:10px auto; }
+.zhongye_main_top ul p{ float:right; font-size:12px; color:#868686;}
+.zhongye_main_top ul p span{ color:#7aa1c2;}
+
+.zhongye_main_ma{ width:1000px; height:auto; margin:0 auto; padding-top:60px; box-sizing:border-box; position:relative;}
+.zhongye_main_lan{ width:190px; height:40px; background:#0395d1; position:absolute; top:-25px; padding:14px 0 0 14px; box-sizing:border-box; font-size:13px; color:#FFF;}
+.zhongye_main_piao{ width:185px; height:345px; border-radius:2px; border:1px #e4e4e4 solid; position:absolute; top:15px; padding-top:10px;}
+.zhongye_main_piao ul { height:208px; border-bottom:4px #0285bd solid;}
+.zhongye_main_piao ul li{ height:25px; margin-bottom:2px; padding-left:30px; font-size:12px; line-height:25px;}
+.zhongye_main_piao ul li:hover{ background:url(../images/zhongye_main_piao_bg.png) no-repeat; color:#017bc1; cursor:pointer;}
+
+.zhongye_main_piao_bot{width:178px; height:125px;  padding:2px; background:url(../images/zuizhong_img.png)  }
+.wenzi{ width:739px; height:507px; margin-left:230px;}
+.wenzi dl dt{ font-size:18px; color:#4c4c4c;}
+.wenzi dl .b{ margin-top:45px;}
+.wenzi dl dd{ font-size:12px;color:#4c4c4c; line-height:25px; font-weight:100; }
+.wenzi dl .aa{text-indent:24px;}
